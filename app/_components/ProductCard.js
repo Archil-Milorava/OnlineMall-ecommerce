@@ -1,10 +1,9 @@
-import imageExample from "@/public/1.jpeg";
-import Image from "next/image";
 
 function ProductCard({ data }) {
   const name = data.title.substring(0, 45);
 
   if (!data) return null;
+
 
   return (
     <div className=" relative h-96 w-56 bg-gray-500 flex flex-col justify-between cursor-pointer hover:bg-gray-500 group ">

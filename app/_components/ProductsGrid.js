@@ -7,8 +7,6 @@ function ProductsGrid() {
             <ProductCard />
             <ProductCard />
             <ProductCard />
-            <ProductCard />
-            <ProductCard />
             
         </div>
     )
